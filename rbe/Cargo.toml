@@ -13,4 +13,16 @@ path = "src/formatted_print.rs"
 name = "complex_numbers"
 path = "src/complex_numbers.rs"
 
+[[bin]]
+name = "display_list"
+path = "src/display_list.rs"
+
+[[bin]]
+name = "formatting_color"
+path = "src/formatting_color.rs"
+
+[[bin]]
+name = "primitives"
+path = "src/primitives.rs"
+
 [dependencies]
