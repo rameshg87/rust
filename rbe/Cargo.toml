@@ -5,4 +5,12 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[[bin]]
+name = "formatted_print"
+path = "src/formatted_print.rs"
+
+[[bin]]
+name = "complex_numbers"
+path = "src/complex_numbers.rs"
+
 [dependencies]

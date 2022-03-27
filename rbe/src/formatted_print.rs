@@ -1,3 +1,16 @@
+use std::fmt;
+
+// Create a structure named `Structure` which contains an `i32`.
+#[derive(Debug)]
+#[allow(dead_code)]
+struct Structure(i32);
+
+impl fmt::Display for Structure {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        write!(f, "Structure: {}", self.0)
+    }
+}
+
 fn main() {
     // In general, the `{}` will be automatically replaced with any
     // arguments. These will be stringified.
@@ -8,7 +21,7 @@ fn main() {
 
     // There are various optional patterns this works with. Positional
     // arguments can be used.
-    fooprintln!("{0}, this is {1}. {1}, this is {0}", "Alice", "Bob");
+    println!("{0}, this is {1}. {1}, this is {0}", "Alice", "Bob");
 
     // As can named arguments.
     println!(
@@ -36,12 +49,10 @@ fn main() {
     println!("My name is {0}, {1} {0}", "Bond", "James");
     // FIXME ^ Add the missing argument: "James"
 
-    // Create a structure named `Structure` which contains an `i32`.
-    #[allow(dead_code)]
-    struct Structure(i32);
-
     // However, custom types such as this structure require more complicated
     // handling. This will not work.
-    // println!("This struct `{}` won't print...", Structure(3));
-    // FIXME ^ Comment out this line.
+    println!("This struct `{}` will print...", Structure(3));
+
+    let pi = 3.141592;
+    println!("Pi is roughly {0:.3}", pi);
 }
