@@ -5,7 +5,6 @@ fn print_type_of<T>(_: &T) {
 fn main() {
     let mut mutable = 12;
     println!("mutable {}", mutable);
-    mutable = 21;
     mutable = 4294967296i64;
     println!("mutable {}", mutable);
     print_type_of(&mutable);

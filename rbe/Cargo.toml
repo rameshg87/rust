@@ -25,4 +25,36 @@ path = "src/formatting_color.rs"
 name = "primitives"
 path = "src/primitives.rs"
 
+[[bin]]
+name = "tuples"
+path = "src/tuples.rs"
+
+[[bin]]
+name = "arrays_and_slices"
+path = "src/arrays_and_slices.rs"
+
+[[bin]]
+name = "structures"
+path = "src/structures.rs"
+
+[[bin]]
+name = "enums"
+path = "src/enums.rs"
+
+[[bin]]
+name = "linkedlist"
+path = "src/linkedlist.rs"
+
+[[bin]]
+name = "inference"
+path = "src/inference.rs"
+
+[[bin]]
+name = "aliasing"
+path = "src/aliasing.rs"
+
+[[bin]]
+name = "from"
+path = "src/from.rs"
+
 [dependencies]
