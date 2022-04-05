@@ -57,4 +57,44 @@ path = "src/aliasing.rs"
 name = "from"
 path = "src/from.rs"
 
+[[bin]]
+name = "try_from"
+path = "src/try_from.rs"
+
+[[bin]]
+name = "to_string"
+path = "src/to_string.rs"
+
+[[bin]]
+name = "parse_string"
+path = "src/parse_string.rs"
+
+[[bin]]
+name = "turbo_fish"
+path = "src/turbo_fish.rs"
+
+[[bin]]
+name = "expressions"
+path = "src/expressions.rs"
+
+[[bin]]
+name = "loop"
+path = "src/loop.rs"
+
+[[bin]]
+name = "forloop"
+path = "src/forloop.rs"
+
+[[bin]]
+name = "match"
+path = "src/match.rs"
+
+[[bin]]
+name = "match_tuples"
+path = "src/match_tuples.rs"
+
+[[bin]]
+name = "match_arrays"
+path = "src/match_arrays.rs"
+
 [dependencies]
