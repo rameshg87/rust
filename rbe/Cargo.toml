@@ -97,4 +97,16 @@ path = "src/match_tuples.rs"
 name = "match_arrays"
 path = "src/match_arrays.rs"
 
+[[bin]]
+name = "match_ref"
+path = "src/match_ref.rs"
+
+[[bin]]
+name = "match_binding"
+path = "src/match_binding.rs"
+
+[[bin]]
+name = "if_let"
+path = "src/if_let.rs"
+
 [dependencies]
