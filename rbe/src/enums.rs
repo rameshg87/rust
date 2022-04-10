@@ -9,6 +9,7 @@ enum WebEvent {
     Click { x: i64, y: i64 },
 }
 
+#[allow(dead_code)]
 enum Number {
     Zero,
     One,

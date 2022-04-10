@@ -1,4 +1,5 @@
 #[derive(Debug)]
+#[allow(dead_code)]
 struct Number {
     value: i32,
 }

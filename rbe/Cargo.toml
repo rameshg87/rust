@@ -109,4 +109,32 @@ path = "src/match_binding.rs"
 name = "if_let"
 path = "src/if_let.rs"
 
+[[bin]]
+name = "associated_functions"
+path = "src/associated_functions.rs"
+
+[[bin]]
+name = "closure1"
+path = "src/closure1.rs"
+
+[[bin]]
+name = "closure2"
+path = "src/closure2.rs"
+
+[[bin]]
+name = "closure3"
+path = "src/closure3.rs"
+
+[[bin]]
+name = "closure4"
+path = "src/closure4.rs"
+
+[[bin]]
+name = "higher_order_functions"
+path = "src/higher_order_functions.rs"
+
+[[bin]]
+name = "crate2"
+path = "src/crate2.rs"
+
 [dependencies]
