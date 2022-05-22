@@ -1,5 +1,3 @@
-use std::mem;
-
 fn apply<F>(mut f: F)
 where
     F: FnMut(),

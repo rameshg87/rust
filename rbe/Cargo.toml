@@ -133,8 +133,4 @@ path = "src/closure4.rs"
 name = "higher_order_functions"
 path = "src/higher_order_functions.rs"
 
-[[bin]]
-name = "crate2"
-path = "src/crate2.rs"
-
 [dependencies]
